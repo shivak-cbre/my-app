@@ -1,0 +1,32 @@
+.popover {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 20000;
+  }
+  
+  .popover h3 {
+    margin-top: 0;
+  }
+  
+  .popover label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .close-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    background-color: #0056b3;
+  }
+  

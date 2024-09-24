@@ -1,0 +1,43 @@
+.ticket-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-card h4 {
+    margin: 0;
+    max-lines: 1;
+    width: 90%;
+    overflow-x: hidden;
+    white-space: nowrap;      /* Prevent the text from wrapping */    
+    text-overflow: ellipsis; 
+    
+  }
+
+  h3 {
+    text-align: left !important;
+  }
+  .tag{
+    display: inline-block;
+    margin-top:10px;
+    padding:10px ;
+    min-width: 150px;
+    border: 1px solid #f7f7f7;
+  }
+  
+  .container-grp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rounded{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    text-align: center;
+    border-radius: 50%;
+    background: blue;
+  }
